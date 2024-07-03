@@ -7,9 +7,9 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        printf("Nhap gia tri x[%d]:",i);
+        printf("Nhap gia tri x[%d]: ",i);
         scanf("%f",&x[i]);
-        printf("Nhap gia tri y[%d]:",i);
+        printf("Nhap gia tri y[%d]: ",i);
         scanf("%f",&y[i]);
         
     }
