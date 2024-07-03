@@ -21,7 +21,7 @@ int main(){
             scanf("%d",&a[i][j]);
         }
     }
-    if(coDoiXungTam(a,m,n)) printf("Co doi xung tam");
-    else printf("Khong doi xung");
+    if(coDoiXungTam(a,m,n)) printf("Co doi xung tam.");
+    else printf("Khong doi xung.");
     return 0;
 }
