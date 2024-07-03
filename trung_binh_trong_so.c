@@ -27,7 +27,7 @@ void thongke(char s[]){
         }
     }
     result = (float)temp2/temp1;
-    printf("Trung binh trong so la: %0.2f",result);
+    printf("Trung binh trong so la: %.2f",result);
 }
 int main(){
     char s[100];
