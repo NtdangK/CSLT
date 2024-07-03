@@ -18,8 +18,14 @@ void dayCon(int a[], int n){
     if(start<n) for(int k=start;k<n;k++) printf("%d ",a[k]);
 }
 int main(){
-    int arr[] = {2, 3, 4, 5, 5, 4, 5, 6, 7, 8, 9, 0, 1, 2, 2};
-    int n = sizeof(arr)/sizeof(arr[0]);
+    int arr[100];
+    int n;
+    printf("Nhap so phan tu vao:");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++){
+        printf("arr[%d]:",i+1);
+        scanf("%d",&arr[i]);
+    }
     dayCon(arr,n);
     return 0;
 }
