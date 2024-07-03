@@ -18,7 +18,7 @@ int main(){
         cnt[dem]++;
     }
     for(int i=0;i<21;i++){
-        printf("Diem thi %0.1f co %d em\n", diemthi[i], cnt[i]);
+        if(cnt[i]) printf("Diem thi %0.1f co %d em\n", diemthi[i], cnt[i]);
     }
     return 0;
 }
