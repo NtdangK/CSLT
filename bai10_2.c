@@ -4,7 +4,7 @@ int main(){
     int m, n;
     printf("Hay nhap so hang va so cot:");
     scanf("%d%d",&m,&n);
-    int a[m][n], tran[m*n], k=0;
+    int a[100][100], tran[10000], k=0;
     for(int i=0;i<m;i++){
         for(int j=0;j<n;j++){
             printf("Nhap phan tu tai vi tri %d%d: ",i+1,j+1);

@@ -4,7 +4,7 @@ int main(){
     int n;
     printf("Nhap cap cua ma tran: ");
     scanf("%d",&n);
-    int a[n][n];
+    int a[20][20];
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             printf("Nhap phan tu a%d%d: ", i+1, j+1);

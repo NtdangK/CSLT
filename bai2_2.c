@@ -11,7 +11,7 @@ int main(){
     int n;
     printf("Nhap so phan tu vao:");
     scanf("%d",&n);
-    int a[n];
+    int a[100];
     for(int i=0;i<n;i++){
         printf("Nhap a[%d]:",i);
         scanf("%d",&a[i]);
